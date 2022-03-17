@@ -1,0 +1,45 @@
+<!-- I have used jquery and bootstrap for this assignment. for that i have added respective CDN links. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Counter</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./script.js"></script>
+</head>
+<body>
+    <div></div>
+
+    <div class="container col-sm-3">
+        <form >
+            <div class="form-group">
+            <h4>Addition & Substraction</h4>
+        
+        
+         <input type="number" class="form-control" placeholder="First Number" name="num1" id="num1" value=""><br>
+         <p id="operation" align="center"></p>
+         
+         <input type="number" class="form-control" placeholder="Second Number" id="num2" name="num2" value=""><br>
+        
+         <button type="button" onclick="addition()" class="btn btn-primary m-2" >Add</button>
+         <button id="reset" type="reset" class="btn btn-secondary m-2">Reset</button>
+         <button  type="button" onclick="subtractraction()" class="btn btn-danger m-2" >Subtract</button><br>
+         
+         
+         <input type="number" class="form-control" placeholder="Result" id="result" name="result" value="">
+ 
+ 
+        </div></form>
+     </div>
+
+
+</body>
+
+</html>
